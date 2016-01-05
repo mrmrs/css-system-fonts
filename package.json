@@ -1,0 +1,30 @@
+{
+  "name": "css-system-fonts",
+  "description": "CSS module for utilizing system fonts",
+  "version": "1.0.0",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "style": "src/system-fonts.css",
+  "files": [
+    "src",
+    "css"
+  ],
+  "keywords": [
+    "css",
+    "fonts",
+    "type faces",
+    "typography",
+    "design"
+  ],
+  "repository": "mrmrs/css-system-fonts",
+  "license": "MIT",
+  "devDependencies": {
+    "tachyons-cli": "^0.3.0"
+  },
+  "scripts": {
+    "start": "tachyons src/system-fonts.css > css/system-fonts.css && tachyons src/system-fonts.css --minify > css/system-fonts.min.css && tachyons src/system-fonts.css --generate-docs --package=../../package.json > readme.md"
+  }
+}
