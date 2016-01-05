@@ -4,7 +4,7 @@ CSS module for utilizing system fonts
 
 #### Stats
 
-562 | 14 | 13
+572 | 14 | 13
 ---|---|---
 bytes | selectors | declarations
 
@@ -58,12 +58,12 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 ```css
 /*
 
-  BASE
+  SYSTEM FONTS
 
 */
 html, body { font-family: -apple-system, avenir, 'avenir next', roboto, 'helvetica neue', helvetica, ubuntu, arial, sans-serif; }
 /*
- 
+
   https://webkit.org/blog/3709/using-the-system-font-in-web-content/
 
   "Going beyond the system font, iOS has dynamic type behavior, which can provide
@@ -75,18 +75,18 @@ html, body { font-family: -apple-system, avenir, 'avenir next', roboto, 'helveti
   Below are single purpose classes for using adaptive type on the web for ios devices.
 
 */
-.ios-body { font-family: -apple-system-body; }
-.ios-headline { font-family: -apple-system-headline; }
-.ios-subheadline { font-family: -apple-system-subheadline; }
-.ios-caption1 { font-family: -apple-system-caption1; }
-.ios-caption2 { font-family: -apple-system-caption2; }
-.ios-footnote { font-family: -apple-system-footnote; }
-.ios-short-body { font-family: -apple-system-short-body; }
-.ios-short-headline { font-family: -apple-system-short-headline; }
-.ios-short-subheadline { font-family: -apple-system-short-subheadline; }
-.ios-short-caption { font-family: -apple-system-short-caption1; }
-.ios-short-footnote { font-family: -apple-system-short-footnote; }
-.ios-tall-body { font-family: -apple-system-tall-body; }
+.ios-body { font: -apple-system-body; }
+.ios-headline { font: -apple-system-headline; }
+.ios-subheadline { font: -apple-system-subheadline; }
+.ios-caption1 { font: -apple-system-caption1; }
+.ios-caption2 { font: -apple-system-caption2; }
+.ios-footnote { font: -apple-system-footnote; }
+.ios-short-body { font: -apple-system-short-body; }
+.ios-short-headline { font: -apple-system-short-headline; }
+.ios-short-subheadline { font: -apple-system-short-subheadline; }
+.ios-short-caption { font: -apple-system-short-caption1; }
+.ios-short-footnote { font: -apple-system-short-footnote; }
+.ios-tall-body { font: -apple-system-tall-body; }
 ```
 
 ## Contributing
