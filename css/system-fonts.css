@@ -3,10 +3,13 @@
   SYSTEM FONTS
 
 */
-html, body { font-family: -apple-system, avenir, 'avenir next', roboto, noto, 'helvetica neue', helvetica, ubuntu, arial, sans-serif; }
+.system-sans-serif { font-family: -apple-system, 'avenir next', avenir, roboto, noto, 'helvetica neue', helvetica, ubuntu, 'century gothic', 'franklin gothic', arial, sans-serif; }
 /*
+  Reference:
 
   https://webkit.org/blog/3709/using-the-system-font-in-web-content/
+  https://en.wikipedia.org/wiki/Avenir_(typeface)
+  https://www.google.com/design/spec/style/typography.html#typography-typeface
 
 */
 
