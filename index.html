@@ -10,52 +10,50 @@
     <meta name="description" content="System fonts">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/system-fonts.css">
-<style>
-	p { font-size: 1.25rem; line-height: 1.5; }
-img { display: block; width: 100%; margin-bottom: 1rem; }
-body { color: #222; background: #fefefe; max-width: 32em; margin-right: auto; margin-left: auto; padding-left: 1rem; padding-right: 1rem; }
-header {
-	padding-bottom: 2rem;
-	border-bottom: 1px solid #ddd;
-	margin-bottom: 2.5rem;
-}
-
-.title { font-size: 1rem; font-weight: bold; text-transform: uppercase; letter-spacing: 0.05em; color: #777; margin-top: 2rem; }
-.tracked { text-transform: uppercase; letter-spacing: .05em; }
-</style>
+    <style>
+      .copy { max-width: 30em; line-height: 1.5; }
+    </style>
   </head>
-  <body>
-    <header>
-      <h1 style="font-weight: 200;">System Fonts CSS</h1>
-      <h2 style="font-weight: 200; font-size: 1.25rem;">This page will not look the same across platforms</h2>
-    </header>
-    <h1 style="font-weight: 200;">This is a headline</h1>
-    <h2 style="font-weight: 200;">This is a subheadline</h2>
-    <img src="http://placekitten.com/g/900/600">
-    <caption>
-      <small>
-        This is a caption for something about how cute cats are
-      </small>
-    </caption>
-    <blockquote>
-      <p>
-        You can say, "I love you," in Helvetica. And you can say it
-        with Helvetica Extra Light if you want to be really fancy. Or you can say it
-        with the Extra Bold if it's really intensive and passionate, you know, and it
-        might work.
-      </p>
-      <p>
-        - Robert Bringhurst
-      </p>
-    </blockquote>
-    <blockquote>
-      <p>
-        Typographic style is founded not on any one technology of typesetting or
-        printing, but on the primitive yet subtle craft of writing.
-      </p>
-      <p>
-        - Robert Bringhurst
-      </p>
-    </blockquote>
+  <body class="system-sans-serif">
+    <main>
+      <article>
+        <h1>Header Examples</h1>
+        <h1>This is a sample h1</h1>
+        <h2>This is a sample h2</h2>
+        <h3>This is a sample h3</h3>
+        <h4>This is a sample h4</h4>
+        <h5>This is a sample h5</h5>
+        <h6>This is a sample h6</h6>
+      </article>
+      <article>
+        <h1>Copy Examples</h1>
+        <p class="copy">
+          Quinoa typewriter photo booth, small batch kitsch viral four loko authentic
+          normcore leggings mustache DIY swag. Thundercats literally master cleanse
+          pabst. Gochujang retro 8-bit, banh mi affogato bespoke viral next level blog.
+          Distillery paleo migas, 90's iPhone authentic jean shorts lo-fi swag. Forage
+          authentic crucifix you probably haven't heard of them man braid, tousled
+          pitchfork VHS. Neutra scenester 90's waistcoat occupy +1 offal, gentrify marfa
+          skateboard cold-pressed pug normcore salvia. Authentic keytar cred sriracha,
+          distillery normcore occupy aesthetic ramps synth stumptown swag pickled beard.
+        </p>
+      </article>
+<article>
+        <h1>Code</h1>
+<pre style="padding: 1em;background-color: #b7ffff;overflow-x: scroll;">
+<code>
+.system-sans-serif {
+  font-family: -apple-system,
+               'avenir next', avenir,
+               roboto, noto,
+               'helvetica neue', helvetica,
+               ubuntu,
+               'franklin gothic medium', 'century gothic', arial,
+               sans-serif;
+}
+</code>
+</pre>
+</article>
+    </main>
   </body>
 </html>
