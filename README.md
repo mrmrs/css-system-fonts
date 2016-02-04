@@ -4,7 +4,7 @@ CSS module for utilizing system fonts
 
 #### Stats
 
-296 | 1 | 1
+298 | 1 | 1
 ---|---|---
 bytes | selectors | declarations
 
@@ -61,7 +61,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
   SYSTEM FONTS
 
 */
-.system-sans-serif { font-family: -apple-system, 'avenir next', avenir, roboto, noto, 'helvetica neue', helvetica, ubuntu, 'century gothic', 'franklin gothic', arial, sans-serif; }
+.system-sans-serif { font-family: -apple-system, 'avenir next', avenir, roboto, noto, 'helvetica neue', helvetica, ubuntu, 'franklin gothic medium', 'century gothic', sans-serif; }
 /*
   Reference:
 
