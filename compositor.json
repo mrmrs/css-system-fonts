@@ -1,0 +1,82 @@
+{
+  "name": "mrmrs/css-system-fonts",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.10"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Williamsburg",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/HighlightBannerHeader",
+      "article": "article/ReaderArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Montserrat, sans-serif",
+    "heading": {
+      "fontWeight": 600,
+      "letterSpacing": "0.1em"
+    },
+    "colors": {
+      "text": "#346",
+      "background": "#fff",
+      "primary": "#0099e0",
+      "secondary": "#ab61ff",
+      "highlight": "#f7b",
+      "muted": "#fffab3",
+      "border": "#ccd"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/mrmrs/css-system-fonts",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/css-system-fonts",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "css-system-fonts",
+      "subhead": "A css module for utilizing system fonts across platforms",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "css-system-fonts: A css module for utilizing system fonts across platforms",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "mrmrs",
+          "repo": "css-system-fonts"
+        }
+      ],
+      "text": "v1.0.1"
+    },
+    {
+      "component": "article",
+      "html": "<h1 id=\"css-system-fonts-1-0-0\">css-system-fonts 1.0.0</h1>\n<p>CSS module for utilizing system fonts</p>\n<h4 id=\"stats\">Stats</h4>\n<table>\n<thead>\n<tr>\n<th>298</th>\n<th>1</th>\n<th>1</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>bytes</td>\n<td>selectors</td>\n<td>declarations</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"installation\">Installation</h2>\n<h4 id=\"with-npm-https-npmjs-com-\">With <a href=\"https://npmjs.com\">npm</a></h4>\n<pre>npm install --<span class=\"hljs-keyword\">save</span>-dev css-<span class=\"hljs-keyword\">system</span>-<span class=\"hljs-built_in\">fonts</span></pre><h4 id=\"with-git\">With Git</h4>\n<pre>git <span class=\"hljs-keyword\">clone</span> <span class=\"hljs-title\">https</span>://github.com/tachyons-css/css-system-fonts</pre><h2 id=\"usage\">Usage</h2>\n<h4 id=\"using-with-postcss-https-github-com-postcss-postcss-\">Using with <a href=\"https://github.com/postcss/postcss\">PostCSS</a></h4>\n<p>Import the css module</p>\n<pre>@<span class=\"hljs-keyword\">import</span> <span class=\"hljs-string\">&quot;css-system-fonts&quot;</span>;</pre><p>Then process the CSS using the <a href=\"https://github.com/tachyons-css/tachyons-cli\"><code>tachyons-cli</code></a></p>\n<pre>$ npm i -g tachyons-cli\n$ tachyons-cli path/to/css-file.css &gt; dist/t.css</pre><h4 id=\"using-the-css\">Using the CSS</h4>\n<p>The built CSS is located in the <code>css</code> directory. It contains an unminified and minified version.\nYou can either cut and paste that css or link to it directly in your html.</p>\n<pre><span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">link</span> <span class=\"hljs-attr\">rel</span>=<span class=\"hljs-string\">&quot;stylesheet&quot;</span> <span class=\"hljs-attr\">href</span>=<span class=\"hljs-string\">&quot;path/to/module/css/css-system-fonts&quot;</span>&gt;</span></pre><h4 id=\"development\">Development</h4>\n<p>The source CSS files can be found in the <code>src</code> directory.\nRunning <code>$ npm start</code> will process the source CSS and place the built CSS in the <code>css</code> directory.</p>\n<h2 id=\"the-css\">The CSS</h2>\n<pre><span class=\"hljs-comment\">/*\n\n  SYSTEM FONTS\n\n*/</span>\n<span class=\"hljs-selector-class\">.system-sans-serif</span> { <span class=\"hljs-attribute\">font-family</span>: -apple-system, <span class=\"hljs-string\">&apos;avenir next&apos;</span>, avenir, roboto, noto, <span class=\"hljs-string\">&apos;helvetica neue&apos;</span>, helvetica, ubuntu, <span class=\"hljs-string\">&apos;franklin gothic medium&apos;</span>, <span class=\"hljs-string\">&apos;century gothic&apos;</span>, sans-serif; }\n<span class=\"hljs-comment\">/*\n  Reference:\n\n  https://webkit.org/blog/3709/using-the-system-font-in-web-content/\n  https://en.wikipedia.org/wiki/Avenir_(typeface)\n  https://www.google.com/design/spec/style/typography.html#typography-typeface\n\n*/</span></pre><h2 id=\"contributing\">Contributing</h2>\n<ol>\n<li>Fork it</li>\n<li>Create your feature branch (<code>git checkout -b my-new-feature</code>)</li>\n<li>Commit your changes (<code>git commit -am &apos;Add some feature&apos;</code>)</li>\n<li>Push to the branch (<code>git push origin my-new-feature</code>)</li>\n<li>Create new Pull Request</li>\n</ol>\n<h2 id=\"authors\">Authors</h2>\n<ul>\n<li><a href=\"http://mrmrs.io\">mrmrs</a></li>\n<li><a href=\"http://johnotander.com\">johno</a></li>\n</ul>\n<h2 id=\"license\">License</h2>\n<p>MIT</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/mrmrs/css-system-fonts",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/mrmrs",
+          "text": "mrmrs"
+        }
+      ]
+    }
+  ]
+}
