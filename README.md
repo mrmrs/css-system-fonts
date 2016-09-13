@@ -18,8 +18,14 @@ npm install --save-dev system-fonts
 
 #### With Git
 
+*http*
 ```
-git clone https://github.com/mrmrs/system-fonts
+git clone https://github.com/mrmrs/css-system-fonts
+```
+
+*ssh*
+```
+git clone git@github.com:mrmrs/css-system-fonts.git
 ```
 
 ## Usage
