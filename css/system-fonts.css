@@ -5,7 +5,7 @@
 */
 .system-sans-serif { font-family: -apple-system, BlinkMacSystemFont, /* MacOS and iOS */
                'avenir next', avenir, /* MacOS and iOS */
-               'Segoe UI' /* Windows */
+               'Segoe UI', /* Windows */
                'lucida grande', /* Older MacOS */
                'helvetica neue', helvetica, /* Older MacOS */
                'Fira Sans', /* Firefox OS */

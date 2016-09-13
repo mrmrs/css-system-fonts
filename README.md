@@ -1,10 +1,10 @@
-# css-system-fonts 1.0.1
+# system-fonts 1.1.0
 
 CSS module for utilizing system fonts
 
 #### Stats
 
-443 | 1 | 1
+440 | 1 | 1
 ---|---|---
 bytes | selectors | declarations
 
@@ -13,13 +13,13 @@ bytes | selectors | declarations
 #### With [npm](https://npmjs.com)
 
 ```
-npm install --save-dev css-system-fonts
+npm install --save-dev system-fonts
 ```
 
 #### With Git
 
 ```
-git clone https://github.com/tachyons-css/css-system-fonts
+git clone https://github.com/tachyons-css/system-fonts
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ git clone https://github.com/tachyons-css/css-system-fonts
 Import the css module
 
 ```css
-@import "css-system-fonts";
+@import "system-fonts";
 ```
 
 Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
@@ -45,7 +45,7 @@ The built CSS is located in the `css` directory. It contains an unminified and m
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/css-system-fonts">
+<link rel="stylesheet" href="path/to/module/css/system-fonts">
 ```
 
 #### Development
@@ -63,7 +63,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 */
 .system-sans-serif { font-family: -apple-system, BlinkMacSystemFont, /* MacOS and iOS */
                'avenir next', avenir, /* MacOS and iOS */
-               'Segoe UI' /* Windows */
+               'Segoe UI', /* Windows */
                'lucida grande', /* Older MacOS */
                'helvetica neue', helvetica, /* Older MacOS */
                'Fira Sans', /* Firefox OS */
