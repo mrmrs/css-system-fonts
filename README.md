@@ -79,6 +79,14 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
                'franklin gothic medium', 'century gothic', /* Windows stuff */
                'Liberation Sans', /* Linux */
                sans-serif; /* Everything else */ }
+.system-mono { font-family: Menlo, Monaco, /* MacOS */
+              'Segoe UI Mono, Lucida Console', /* Windows */
+              'Fira Mono', /* Firefox OS */
+              'Roboto Mono', 'Noto Mono', /* Google stuff */
+              'Droid Sans Mono', /* Old Google stuff */
+              'Ubuntu Mono', 'DejaVu Sans Mono', 'Liberation Mono', /* Linux */
+              'Courier New', /* MacOS and Windows */
+              monospace; /* Everything else */ }
 /*
   References:
 
@@ -86,6 +94,9 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
   https://en.wikipedia.org/wiki/Avenir_(typeface)
   https://www.google.com/design/spec/style/typography.html#typography-typeface
   https://core.trac.wordpress.org/ticket/36753#comment:85
+  http://font.ubuntu.com/
+  https://mozilla.github.io/Fira/
+  https://fedorahosted.org/liberation-fonts/
 
 */
 ```
