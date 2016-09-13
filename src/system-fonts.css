@@ -19,6 +19,16 @@
                sans-serif; /* Everything else */
 }
 
+.system-mono { 
+  font-family: Menlo, Monaco, /* MacOS */
+              'Segoe UI Mono, Lucida Console', /* Windows */
+              'Fira Mono', /* Firefox OS */
+              'Roboto Mono', 'Noto Mono', /* Google stuff */
+              'Droid Sans Mono', /* Old Google stuff */
+              'Ubuntu Mono', 'DejaVu Sans Mono', 'Liberation Mono', /* Linux */
+              'Courier New', /* MacOS and Windows */
+              monospace; /* Everything else */
+}
 
 /*
   References:
