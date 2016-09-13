@@ -1,10 +1,10 @@
-# system-fonts 1.1.0
+# system-fonts 1.1.1
 
 CSS module for utilizing system fonts
 
 #### Stats
 
-440 | 1 | 1
+488 | 1 | 1
 ---|---|---
 bytes | selectors | declarations
 
@@ -19,7 +19,7 @@ npm install --save-dev system-fonts
 #### With Git
 
 ```
-git clone https://github.com/tachyons-css/system-fonts
+git clone https://github.com/mrmrs/system-fonts
 ```
 
 ## Usage
@@ -71,6 +71,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
                'Droid Sans', /* Old Google stuff */
                cantarell, oxygen, ubuntu, /* Linux stuff */
                'franklin gothic medium', 'century gothic', /* Windows stuff */
+               'Liberation Sans', /* Linux */
                sans-serif; /* Everything else */ }
 /*
   References:
@@ -78,6 +79,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
   https://webkit.org/blog/3709/using-the-system-font-in-web-content/
   https://en.wikipedia.org/wiki/Avenir_(typeface)
   https://www.google.com/design/spec/style/typography.html#typography-typeface
+  https://core.trac.wordpress.org/ticket/36753#comment:85
 
 */
 ```
@@ -93,7 +95,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 ## Authors
 
 * [mrmrs](http://mrmrs.io)
-* [johno](http://johnotander.com)
 
 ## License
 

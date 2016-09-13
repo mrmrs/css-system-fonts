@@ -1,5 +1,5 @@
 {
-  "name": "system-fonts",
+  "name": "css-system-fonts",
   "description": "CSS module for utilizing system fonts",
   "version": "1.1.1",
   "author": {
@@ -7,7 +7,7 @@
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "style": "src/system-fonts.css",
+  "style": "src/css-system-fonts.css",
   "files": [
     "src",
     "css"
@@ -25,6 +25,7 @@
     "tachyons-cli": "^0.3.0"
   },
   "scripts": {
-    "start": "tachyons src/system-fonts.css > css/system-fonts.css && tachyons src/system-fonts.css --minify > css/system-fonts.min.css && tachyons src/system-fonts.css --generate-docs --package=../../package.json > readme.md"
+    "start": "tachyons src/system-fonts.css > css/system-fonts.css && tachyons src/system-fonts.css --minify > css/system-fonts.min.css && tachyons src/system-fonts.css",
+    "docs": "--generate-docs --package=../../package.json > readme.md"
   }
 }
