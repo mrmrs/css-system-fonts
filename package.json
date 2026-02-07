@@ -22,6 +22,7 @@
   "repository": "mrmrs/css-system-fonts",
   "license": "MIT",
   "devDependencies": {
+    "lightningcss": "^1"
   },
   "scripts": {
     "docs": "--generate-docs --package=../../package.json > readme.md"
