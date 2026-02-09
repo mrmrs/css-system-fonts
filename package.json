@@ -25,6 +25,7 @@
     "lightningcss": "^1"
   },
   "scripts": {
+    "build": "node build.js",
     "docs": "--generate-docs --package=../../package.json > readme.md"
   }
 }
