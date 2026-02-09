@@ -1,31 +1,44 @@
 {
   "name": "system-fonts",
-  "description": "CSS module for utilizing system fonts",
-  "version": "1.1.6",
+  "version": "2.0.0",
+  "description": "Functional CSS for system-fonts",
+  "style": "dist/system-fonts.css",
+  "main": "dist/system-fonts.css",
+  "exports": {
+    ".": "./dist/system-fonts.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "css",
+    "system-fonts",
+    "utility",
+    "single-purpose",
+    "functional-css"
+  ],
+  "homepage": "https://github.com/mrmrs/css-system-fonts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrmrs/css-system-fonts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrmrs/css-system-fonts/issues"
+  },
   "author": {
-    "name": "mrmrs",
+    "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "style": "src/system-fonts.css",
-  "files": [
-    "src",
-    "css"
-  ],
-  "keywords": [
-    "css",
-    "fonts",
-    "type faces",
-    "typography",
-    "design"
-  ],
-  "repository": "mrmrs/css-system-fonts",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js",
-    "docs": "--generate-docs --package=../../package.json > readme.md"
   }
 }
