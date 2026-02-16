@@ -1,108 +1,69 @@
-# system-fonts 1.1.1
+# system-fonts
 
-CSS module for utilizing system fonts
+Functional CSS for system-fonts
 
-#### Stats
+## Filesize
 
-488 | 1 | 1
----|---|---
-bytes | selectors | declarations
+| File | Size |
+|------|------|
+| `dist/system-fonts.css` | 279 bytes |
+| `dist/system-fonts.min.css` | 253 bytes (192 Gzipped) |
 
-## Installation
+## Install
 
-#### With [npm](https://npmjs.com)
-
-```
-npm install --save-dev system-fonts
-```
-
-#### With Git
-
-*http*
-```
-git clone https://github.com/mrmrs/css-system-fonts
-```
-
-*ssh*
-```
-git clone git@github.com:mrmrs/css-system-fonts.git
+```sh
+npm install system-fonts
 ```
 
 ## Usage
 
-#### Using with [PostCSS](https://github.com/postcss/postcss)
-
-Import the css module
+### Import
 
 ```css
 @import "system-fonts";
 ```
 
-Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
-
-```sh
-$ npm i -g tachyons-cli
-$ tachyons-cli path/to/css-file.css > dist/t.css
-```
-
-#### Using the CSS
-
-The built CSS is located in the `css` directory. It contains an unminified and minified version.
-You can either cut and paste that css or link to it directly in your html.
+### CDN
 
 ```html
-<link rel="stylesheet" href="path/to/module/css/system-fonts">
+<link rel="stylesheet" href="https://unpkg.com/system-fonts/dist/system-fonts.min.css">
 ```
 
-#### Development
+### Direct
 
-The source CSS files can be found in the `src` directory.
-Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
-
-## The CSS
-
-```css
-/*
-
-  SYSTEM FONTS
-
-*/
-.system-sans-serif { font-family: -apple-system, BlinkMacSystemFont, /* MacOS and iOS */
-               'avenir next', avenir, /* MacOS and iOS */
-               'Segoe UI', /* Windows */
-               'lucida grande', /* Older MacOS */
-               'helvetica neue', helvetica, /* Older MacOS */
-               'Fira Sans', /* Firefox OS */
-               roboto, noto, /* Google stuff */
-               'Droid Sans', /* Old Google stuff */
-               cantarell, oxygen, ubuntu, /* Linux stuff */
-               'franklin gothic medium', 'century gothic', /* Windows stuff */
-               'Liberation Sans', /* Linux */
-               sans-serif; /* Everything else */ }
-/*
-  References:
-
-  https://webkit.org/blog/3709/using-the-system-font-in-web-content/
-  https://en.wikipedia.org/wiki/Avenir_(typeface)
-  https://www.google.com/design/spec/style/typography.html#typography-typeface
-  https://core.trac.wordpress.org/ticket/36753#comment:85
-
-*/
+```html
+<link rel="stylesheet" href="path/to/system-fonts/dist/system-fonts.min.css">
 ```
 
-## Contributing
+## Classes
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+| Class   | Value                    |
+|---------|--------------------------|
+| `.system-sans-serif` | `font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, Segoe UI, lucida grande, helvetica neue, helvetica, Fira Sans, roboto, noto, Droid Sans, cantarell, oxygen, ubuntu, franklin gothic medium, century gothic, Liberation Sans, sans-serif;` |
 
-## Authors
+### Responsive
 
-* [mrmrs](http://mrmrs.io)
+Responsive variants are available for each class with the following suffixes:
+
+| Suffix | Media Query              |
+|--------|--------------------------|
+| `-s`   | `min-width: 32em`        |
+| `-m`   | `min-width: 48em`        |
+| `-l`   | `min-width: 96em`        |
+
+Example: `.system-sans-serif-m` applies the property at the medium breakpoint and above.
+
+## Building
+
+```sh
+npm run build
+```
+
+Processes `src/system-fonts.css` with [Lightning CSS](https://lightningcss.dev) and outputs to `dist/`.
+
+- `dist/system-fonts.css` — formatted
+- `dist/system-fonts.min.css` — minified
 
 ## License
 
 MIT
-
